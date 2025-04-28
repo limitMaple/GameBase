@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+
+    <uses-permission />
+    <uses-sdk />
+    <uses-feature />
+    <supports-screens />
+
+    <application>
+        <activity>
+            <intent-filter>
+                <action />
+                <category />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
