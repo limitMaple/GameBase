@@ -7,6 +7,13 @@
       "dependencies": {},
       "hash": "e52663cef6f0c869f3519a1ba4b7cca0697d9ce8"
     },
+    "com.mackysoft.serializereference-extensions": {
+      "version": "https://github.com/mackysoft/Unity-SerializeReferenceExtensions.git?path=Assets/MackySoft/MackySoft.SerializeReferenceExtensions",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f938fc5d9a9ef46a1669289450d38e17cb39567c"
+    },
     "com.unity.addressables": {
       "version": "2.4.3",
       "depth": 0,
