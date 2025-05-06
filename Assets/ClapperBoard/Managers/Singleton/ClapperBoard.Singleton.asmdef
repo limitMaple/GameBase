@@ -1,0 +1,18 @@
+{
+    "name": "ClapperBoard.UnityScene",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3581f55ee360f39489f4a69bda884cda",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:868425e00c9bd7343a9734081550dead"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

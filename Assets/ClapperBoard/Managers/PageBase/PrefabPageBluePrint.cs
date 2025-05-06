@@ -42,6 +42,14 @@ namespace ClapperBoard.Managers.PageBase {
             if (onBeforeInit != null) await onBeforeInit.Invoke();
 
             var handle = Addressables.LoadAssetAsync<GameObject>(_assetReference);
+            // 進行状況を監視
+            while (!handle.IsDone)
+            {
+                // 進捗率をゲージに反映
+                Debug.Log(handle.PercentComplete);
+                _transition?.Report(handle.PercentComplete);
+                await UniTask.NextFrame();
+            }
             var obj = Object.Instantiate(await handle.Task, pageChanger.root);
             if (_transition != null) await _transition.Complete();
             var scene = obj.GetComponent<TSceneBaseType>();
