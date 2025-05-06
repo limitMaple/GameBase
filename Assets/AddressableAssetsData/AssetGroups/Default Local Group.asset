@@ -14,7 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Default Local Group
   m_GUID: bc1c62424c5ea4baf860d71b3d5f9944
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 4a9bc40761ca10a4e88917466a44f602
+    m_Address: Assets/Test/SceneXChange.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dba00f714b3ac440865b99106c39275
+    m_Address: Assets/Test/Top2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bf21cb0e59528f4fb4e7f7aca0ac101
+    m_Address: Assets/Test/Top.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d13385271de152b498351c1cead0c638
+    m_Address: Assets/Test/Top 1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 1e0ca49013c904aae93b2090634f7477, type: 2}
   m_SchemaSet:
